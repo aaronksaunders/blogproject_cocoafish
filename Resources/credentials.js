@@ -1,0 +1,4 @@
+exports.C = {
+	COCOAFISH_APP_NAME : 'YOURS',
+	COCOAFISH_API_KEY : "YOURS"
+};
