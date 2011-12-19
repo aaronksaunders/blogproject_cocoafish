@@ -39,7 +39,7 @@
 		if(creds.login && creds.password) {
 			client.login(creds, function(e) {
 				if(e.success === false) {
-					makeSimpleAlert("Error Connecting to the Server, Please login again").show();
+					alert("Error Connecting to the Server, Please login again");
 				} else {
 					Ti.API.debug("Logged in on resume " + JSON.stringify(e.response));
 				}
