@@ -1,3 +1,11 @@
+/*
+  This is a sample project using Cocoafish and Titanium.
+  See additional code samples and documentation on my blog 
+  
+  Aaron K. Saunders
+  
+  @see http://blog.clearlyinnovative.com
+*/
 (function() {
 
 	//include Cocoafish & credentials module
