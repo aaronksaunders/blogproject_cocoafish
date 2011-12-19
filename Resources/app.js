@@ -37,7 +37,7 @@
 	Ti.App.addEventListener('resumed', function() {
 		var creds = JSON.parse(Ti.App.Properties.getString('CREDENTIALS'));
 		if(creds.login && creds.password) {
-			globals.client.doLogin(creds, function(e) {
+			client.login.login(creds, function(e) {
 				if(e.success === false) {
 					makeSimpleAlert("Error Connecting to the Server, Please login again").show();
 				} else {
